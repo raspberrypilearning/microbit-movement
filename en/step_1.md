@@ -1,59 +1,29 @@
-## Introduction
+## Use the accelerometer to trigger an action.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+You can find the `on shake`{:class='microbitinput'} block in the `Input`{:class='microbitinput'} menu in your Toolbox.
 
-### What you will make
+<div style="position:relative;height:calc(75px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:50%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_Wff4v7MYXLrR" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+<p>
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+Select the dropdown arrow next to `shake` to choose a different gesture.
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+<img src="images/gestures.png" alt="The gestures menu showing eleven gestures to choose from" width="300"/>
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+You can get more accurate movement values using `rotation`{:class='microbitinput'}.
 
-+ A computer or tablet capable of running Scratch 3
+- You can also find the `rotation`{:class='microbitinput'} block in the `Input`{:class='microbitinput'} menu in your Toolbox.
 
-### Software
+This could be used in a compare against a maximum `roll` value to trigger an event.
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+Here is an example.
 
-### Downloads
+<div style="position:relative;height:calc(200px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_gzvM5a8MgA4f" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
+<p>
 
---- /collapse ---
+Here is the code running on the simulator.
 
---- collapse ---
----
-title: What you will learn
----
+Roll the micro:bit left or right to trigger the icon to change.
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+<div style="position:relative;height:0;padding-bottom:127%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:60%;height:100%;" src="https://makecode.microbit.org/---run?id=_gzvM5a8MgA4f" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
